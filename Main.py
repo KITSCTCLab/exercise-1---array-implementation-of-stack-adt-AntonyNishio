@@ -1,4 +1,4 @@
-
+import os
 class Stack:
     def __init__(self, size):
         self.items = []
@@ -6,7 +6,6 @@ class Stack:
 
     def is_empty(self):
         # Write code here
-        self.is_empty=[]
 
     def is_full(self):
         # Write code here
